@@ -13,17 +13,18 @@ os.makedirs(os.path.dirname(f"Day {day}/data.txt"), exist_ok=True)
 
 template = f"""import numpy as np
 
+
 def main():
     with open("Day {day}/data.txt", "r") as file:
-        data = file.read().split("\n")
+        data = file.read().split("\\n")
     # data = np.loadtxt("Day {day}/data.txt", dtype=str)
     print(data)
 
-    return 
+    return
+
 
 if __name__ == "__main__":
     print(main())
-
 """
 
 with open(f"Day {day}/solution1.py", "a") as file:
