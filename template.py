@@ -31,7 +31,7 @@ with open(f"Day {day}/solution1.py", "a") as file:
     file.write(template)
 
 with open(f"Day {day}/solution2.py", "a") as file:
-    file.write(template)
+    file.write("# Copy Solution1 here")
 
 with open(f"Day {day}/data.txt", "a") as file:
     pass
